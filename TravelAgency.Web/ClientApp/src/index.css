@@ -1,0 +1,97 @@
+@media (max-width: 767px) {
+    /* On small screens, the nav menu spans the full width of the screen. Leave a space for it. */
+    body {
+        padding-top: 100px;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .container-top {
+
+        margin-top: 50px;
+    }
+}
+
+.img-format {
+    height: 400px;
+    width: 100%;
+    background-color: cornflowerblue;
+    border: 2px solid white;
+}
+
+
+    .img-format img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .img-format p {
+        padding: 5px;
+        color: white;
+        font-weight: bold;
+        width: 100%;
+    }
+
+.search-top {
+
+    margin-top: 10px;
+}
+
+.link {
+
+    cursor: pointer;
+
+}
+
+.link:hover {
+    text-decoration: none;
+}
+
+.cadastro {
+    padding: 20px;
+    background-color: cadetblue;
+    height: calc(90% -20px);
+}
+
+.cadastro input[type=text], 
+            input[type=email], 
+            input[type=password] {
+    margin-bottom: 40px;
+    height: 50px;
+}
+
+.cadastro button {
+        width: 100%;
+    }
+
+.row-landing {
+    height: 100%;
+}
+
+.format-search {
+    padding: 10px;
+    background-color: #78d379;
+}
+
+.format-search div input[type=text], 
+               div input[type=date] {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.apresentacao {
+    background-color: #78d379;
+}
+
+.img-transporte {
+    height: 300px;
+    width: 100%;
+    background-color: cornflowerblue;
+    border: 2px solid white;
+}
+
+.img-transporte img {
+    height: 100%;
+    width: 100%;
+}
