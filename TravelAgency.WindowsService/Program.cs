@@ -19,8 +19,6 @@ namespace TravelAgency.WindowsService
     {
         public static void Main(string[] args)
         {
-           var isService = !(Debugger.IsAttached || args.Contains("--console"));
-
             var builder = new HostBuilder()
                           .ConfigureServices((hostContext, services) =>
                           {
